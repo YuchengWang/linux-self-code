@@ -1,2 +1,6 @@
 # linux-self-code
-small tools
+Writing linux config file and some code here.
+
+# Directory
+* c 
+* config
