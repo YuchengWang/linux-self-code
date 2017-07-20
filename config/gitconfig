@@ -1,0 +1,14 @@
+[merge]
+	tool = vimdiff
+[color]
+	status = auto
+	diff = auto
+	branch = auto
+	interactive = auto
+[user]
+	email = wfing123@gmail.com
+	name = Yucheng Wang
+[push]
+	default = matching
+[credential]
+	helper = store
