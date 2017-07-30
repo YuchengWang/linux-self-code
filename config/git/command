@@ -2,3 +2,4 @@ git switch to remote branch and downlaod.
 
 git checkout -t <origin/branch-name>
 
+https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage
