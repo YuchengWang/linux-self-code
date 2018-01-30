@@ -24,3 +24,5 @@ Writing linux config file and some code here.
 [python hex pack](http://blog.csdn.net/lis_12/article/details/52777983)
 
 [python binascii](https://www.cnblogs.com/LarryGen/p/5088144.html)
+
+[Binary Hacking](http://liveoverflow.com/binary_hacking/)
