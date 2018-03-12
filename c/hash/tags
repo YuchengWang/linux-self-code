@@ -1,0 +1,32 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+HashTable	HashTable.c	/^struct HashTable$/;"	s	file:
+HashTable	HashTable.h	/^typedef struct HashTable HashTable;$/;"	t	typeref:struct:HashTable
+Student	test.cpp	/^struct Student$/;"	s	file:
+TABLE_SIZE	HashTable.c	6;"	d	file:
+age	test.cpp	/^	int age;$/;"	m	struct:Student	file:
+data	test.cpp	/^	char data[1024 * 1024* 10];$/;"	m	struct:Student	file:
+free_kv	HashTable.c	/^static void free_kv(struct kv* kv)$/;"	f	file:
+free_student	test.cpp	/^static void free_student(void* stu)$/;"	f	file:
+free_value	HashTable.c	/^	void(*free_value)(void*);$/;"	m	struct:kv	file:
+hash_33	HashTable.c	/^static unsigned int hash_33(char* key)$/;"	f	file:
+hash_table_delete	HashTable.c	/^void hash_table_delete(HashTable* ht)$/;"	f
+hash_table_get	HashTable.c	/^void* hash_table_get(HashTable* ht, char* key)$/;"	f
+hash_table_new	HashTable.c	/^HashTable* hash_table_new()$/;"	f
+hash_table_put	HashTable.h	21;"	d
+hash_table_put2	HashTable.c	/^int hash_table_put2(HashTable* ht, char* key, void* value, void(*free_value)(void*))$/;"	f
+hash_table_rm	HashTable.c	/^void hash_table_rm(HashTable* ht, char* key)$/;"	f
+init_kv	HashTable.c	/^static void init_kv(struct kv* kv)$/;"	f	file:
+key	HashTable.c	/^	char* key;$/;"	m	struct:kv	file:
+kv	HashTable.c	/^struct kv$/;"	s	file:
+main	test.cpp	/^int main()$/;"	f
+name	test.cpp	/^	char name[32];$/;"	m	struct:Student	file:
+next	HashTable.c	/^	struct kv* next;$/;"	m	struct:kv	typeref:struct:kv::kv	file:
+score	test.cpp	/^	float score;$/;"	m	struct:Student	file:
+show_student	test.cpp	/^static void show_student(struct Student* p)$/;"	f	file:
+table	HashTable.c	/^	struct kv ** table;$/;"	m	struct:HashTable	typeref:struct:HashTable::kv	file:
+value	HashTable.c	/^	void* value;$/;"	m	struct:kv	file:
