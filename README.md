@@ -26,3 +26,11 @@ Writing linux config file and some code here.
 [python binascii](https://www.cnblogs.com/LarryGen/p/5088144.html)
 
 [Binary Hacking](http://liveoverflow.com/binary_hacking/)
+
+# trezor
+
+[trezor-mcu](https://github.com/trezor/trezor-mcu.git)
+
+[libopencm3](https://github.com/YuchengWang/libopencm3.git)
+
+[nanopb](https://github.com/YuchengWang/nanopb.git)
