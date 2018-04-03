@@ -34,3 +34,7 @@ Writing linux config file and some code here.
 [libopencm3](https://github.com/YuchengWang/libopencm3.git)
 
 [nanopb](https://github.com/YuchengWang/nanopb.git)
+
+# 人脸识别
+
+[人脸识别应用](https://www.zhihu.com/question/19561362)
